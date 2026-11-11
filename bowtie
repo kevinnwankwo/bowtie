@@ -1,0 +1,14 @@
+
+# Top half of the bowtie 
+for i in range(1, 8 + 1):
+    left_stars = "* " * i
+    middle_gap = "    " * (8 - i)
+    right_stars = "* " * i
+    print(left_stars + middle_gap + right_stars)
+# Bottom half of the bowtie 
+for i in range(7, 0, -1):
+    left_stars = "* " * i
+    middle_gap = "    " * (8 - i)
+    right_stars = "* " * i
+    print(left_stars + middle_gap + right_stars)
+
